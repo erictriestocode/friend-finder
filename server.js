@@ -1,9 +1,9 @@
 // Server File
 //**************************
 
-// NODE MODULES
-const app = require("express");
-const path = require("path");
+// NODE MODULE for Express
+const express = require("express");
+const app = express();
 
 // IMPORTS
 const htmlRoutes = require("./app/routing/htmlRoutes");
