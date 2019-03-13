@@ -2,8 +2,8 @@
 
 let userArray = [
     {
-        name: "Eric"
-        photo: "http://deprecatedhope.com/assets/images/face@0,1x.png"
+        name: "Eric",
+        photo: "http://deprecatedhope.com/assets/images/face@0,1x.png",
         scores: [
             5,
             1,

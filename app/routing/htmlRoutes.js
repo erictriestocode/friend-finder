@@ -1,4 +1,4 @@
-const path = require("path");
+var path = require("path");
 
 // EXPORTED ROUTES
 module.exports = function(app){
@@ -12,3 +12,4 @@ module.exports = function(app){
     });
 
 }
+
