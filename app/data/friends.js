@@ -17,4 +17,6 @@ let userArray = [
             4
         ]
     }
-]
+];
+
+module.exports = userArray;
