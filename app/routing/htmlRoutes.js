@@ -10,6 +10,11 @@ module.exports = function(app){
     app.get("/survey", function(req,res){
         res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
+    // Default route per assignment requirements
+    // Found on Stack Overflow
+    app.get("*", function(req,res){
+        res.redirect('/');
+    });
 
 }
 
