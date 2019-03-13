@@ -22,3 +22,7 @@ $("#submit-survey").on("click", function(event){
           ]
     };
 });
+
+// Really want to start doing AJAX calls in Vanilla JS but I looked at the code and I just flat out ran out of time
+
+$.post("/api/friends")
